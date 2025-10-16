@@ -10,9 +10,10 @@ int main (){
 	
 	printf("Nhap so c:");
 	scanf("%d",&c);
-	float S= (sqrt((pow(a,2) +pow(b,2)))/(c+1)) + ((a*b)/c) - sqrt(abs(a-b)+pow(c,2)) ;
+	float S= (sqrt((pow(a,2) +pow(b,2)))/(c+1)) + ((a*b)/((float)c)) - sqrt(abs(a-b)+pow(c,2)) ;
 
 	printf("Gia tri cua bieu thuc S: %.2f",S);
 return 0;
 }
+
 
